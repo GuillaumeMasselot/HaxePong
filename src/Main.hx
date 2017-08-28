@@ -25,16 +25,19 @@ class Main extends Sprite
 		if (inited) return;
 		inited = true;
 		
+		// Creates the Player 1 pong platform
 		platform1 = new Platform();
 		platform1.x = 5;
 		platform1.y = 200;
 		this.addChild(platform1);
 		
+		// Creates the Player 2 pong platform
 		platform2 = new Platform();
 		platform2.x = 480;
 		platform2.y = 200;
 		this.addChild(platform2);
 		
+		// Creates the ball in the middle of the screen
 		ball = new Ball();
 		ball.x = 250;
 		ball.y = 250;
