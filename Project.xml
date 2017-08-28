@@ -3,10 +3,10 @@
 	<!-- NMML reference: https://gist.github.com/1763850 -->
 	
 	<!-- metadata, make sure 'package' is at least 3 segments (ie. com.mycompany.myproject) -->
-	<meta title="New Project" package="NewProject" version="1.0.0" company="g" />
+	<meta title="Haxe Pong" package="HaxePong" version="1.0.0" company="g" />
 	
 	<!-- output -->
-	<app main="Main" file="NewProject" path="bin" />
+	<app main="Main" file="HaxePong" path="bin" />
 	
 	<window background="#333333" fps="60" />
 	<window width="500" height="500" unless="mobile" />
